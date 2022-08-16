@@ -31,7 +31,7 @@ function ProductFilter2() {
     };
     useEffect(() => {
         getData(
-            `http://goodmamabackend.herokuapp.com/product_types`
+            `https://goodmamabackend.herokuapp.com/product_types`
         )
             .then((data) => {
                 console.log(data.data);

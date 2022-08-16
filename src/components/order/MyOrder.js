@@ -11,7 +11,7 @@ function MyOrder() {
         return responseData
     }
     useEffect(() => {
-        getData(`http://goodmamabackend.herokuapp.com/orders`)
+        getData(`https://goodmamabackend.herokuapp.com/orders`)
             .then((data) => {
                 setOrders(data.data)
                 console.log(data);

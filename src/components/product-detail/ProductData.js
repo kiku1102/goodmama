@@ -18,7 +18,7 @@ function ProductData() {
   };
 
   useEffect(() => {
-    getData("http://goodmamabackend.herokuapp.com/products/" + productId)
+    getData("https://goodmamabackend.herokuapp.com/products/" + productId)
       .then((data) => {
         console.log(data.data);
         setProduct(data.data);

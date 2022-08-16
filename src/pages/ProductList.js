@@ -40,7 +40,7 @@ function ProductList() {
 
   useEffect(() => {
     getData(
-      `http://goodmamabackend.herokuapp.com/products?name=${filterInfo.name}&type=${filterInfo.type}&promotionPriceMax=${filterInfo.promotionPriceMax}&promotionPriceMin=${filterInfo.promotionPriceMin}`
+      `https://goodmamabackend.herokuapp.com/products?name=${filterInfo.name}&type=${filterInfo.type}&promotionPriceMax=${filterInfo.promotionPriceMax}&promotionPriceMin=${filterInfo.promotionPriceMin}`
     )
       .then((data) => {
         console.log(data.data);

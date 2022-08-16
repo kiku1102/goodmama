@@ -14,7 +14,7 @@ function SimilarProducts() {
     return responseData;
   };
   useEffect(() => {
-    getData("http://goodmamabackend.herokuapp.com/products?limit=8")
+    getData("https://goodmamabackend.herokuapp.com/products?limit=8")
       .then((data) => {
         console.log(data.data);
         setProducts(data.data);
