@@ -81,7 +81,7 @@ function OrderEvent(state = initialState, action) {
             'Content-type': 'application/json; charset=UTF-8',
           }
         }
-        callApi('http://localhost:8000/customers', body)
+        callApi('http://goodmamabackend.herokuapp.com/customers', body)
           .then((data) => {
             callApiCreateOrder(data.data)
           })
@@ -113,7 +113,7 @@ function OrderEvent(state = initialState, action) {
             'Content-type': 'application/json; charset=UTF-8',
           }
         }
-        callApi(`http://localhost:8000/customers/${customerId}/orders`, body)
+        callApi(`http://goodmamabackend.herokuapp.com/customers/${customerId}/orders`, body)
           .then((data) => {
             console.log(data.data);
             console.log("orderSuccess")
@@ -129,7 +129,7 @@ function OrderEvent(state = initialState, action) {
           })
       }
       const createNewOrderHandler = () => {
-        callApi("http://localhost:8000/customers?phoneNumber=" + state.phoneNumber)
+        callApi("http://goodmamabackend.herokuapp.com/customers?phoneNumber=" + state.phoneNumber)
           .then((data) => {
             if (data.data.length === 0) {
              createOrderForNewCustomer();

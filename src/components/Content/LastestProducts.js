@@ -11,7 +11,7 @@ function LastestProducts() {
     return responseData;
   };
   useEffect(() => {
-    getData("http://localhost:8000/products?limit=8")
+    getData("http://goodmamabackend.herokuapp.com/products?limit=8")
       .then((data) => {
         console.log(data.data);
         setProducts(data.data);
