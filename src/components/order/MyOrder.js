@@ -53,9 +53,6 @@ function MyOrder() {
                     </div>
                 ))
             }
-
-
-
         </div>
     )
 }
