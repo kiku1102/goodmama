@@ -99,8 +99,8 @@ function IconNavBar() {
             }}
             
           >
-            <MenuItem onClick={myOrder} style={{ "textDecoration": "none", "color": "#fff", "fontWeight": "bold", "font-family": 'Great Vibes' }}>Đơn hàng của tôi</MenuItem>
-            <MenuItem onClick={logoutGoogle} style={{ "textDecoration": "none", "color": "#fff", "fontWeight": "bold", "font-family": 'Great Vibes' }} >Đăng xuất</MenuItem>
+            <MenuItem onClick={myOrder} style={{ "textDecoration": "none", "color": "#F24C4C", "fontWeight": "bold", "font-family": 'Great Vibes' }}>Đơn hàng của tôi</MenuItem>
+            <MenuItem onClick={logoutGoogle} style={{ "textDecoration": "none", "color": "#F24C4C", "fontWeight": "bold", "font-family": 'Great Vibes' }} >Đăng xuất</MenuItem>
           </Menu>
         </>
       )}
