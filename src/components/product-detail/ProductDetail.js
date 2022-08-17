@@ -2,7 +2,7 @@ import { Container } from "@mui/material";
 import ProductData from "./ProductData";
 import { useEffect } from "react";
 import SimilarProducts from "./SimilarProducts";
-
+import { useLocation } from "react-router-dom";
 
 function ProductDetail() {
   const location = useLocation();
@@ -17,5 +17,5 @@ function ProductDetail() {
     </Container>
   );
 }
-import { useLocation } from "react-router-dom";
+
 export default ProductDetail;
