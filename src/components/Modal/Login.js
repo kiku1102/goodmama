@@ -36,16 +36,16 @@ function Login() {
           <GoogleIcon /> Đăng nhập bằng Google
         </Button>
       </Grid>
-      <Grid item xs={12} md={12} sm={12} lg={12}>
+      <Grid item xs={12} md={6} sm={6} lg={12}>
         <Typography>Đăng nhập bằng tài khoản</Typography>
       </Grid>
-      <Grid item xs={12} md={12} sm={12} lg={12}>
+      <Grid item xs={12} md={6} sm={6} lg={12}>
         <TextField fullWidth label="Username" />
       </Grid>
-      <Grid item xs={12} md={12} sm={12} lg={12}>
+      <Grid item xs={12} md={6} sm={6} lg={12}>
         <TextField fullWidth label="Password" />
       </Grid>
-      <Grid item xs={12} md={12} sm={12} lg={12}>
+      <Grid item xs={12} md={6} sm={6} lg={12}>
         <Button fullWidth variant="contained" color="success">
         Đăng nhập
         </Button>

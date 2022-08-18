@@ -53,7 +53,7 @@ function DeliveryInfo() {
     }
     return (
         <div>
-            <Grid container mt={1} spacing={2} p={3} sx={{ border: "double #ff6347", borderRadius: "10px", backgroundColor: "#fff" }}>
+            <Grid container mt={1} spacing={2} p={3} sx={{border: "#FE7171", borderRadius: "10px", backgroundColor: "#F4D9C6" }}>
                 <Grid item xs={12} sm={12} lg={12} md={12}>
                     <Typography variant="h5">
                     Địa chỉ nhận hàng

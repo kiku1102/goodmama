@@ -27,7 +27,7 @@ function SimilarProducts() {
 
     <Grid container textAlign="center" spacing={2} mt={2}>
       <Grid item xs={12} md={12} sm={12} lg={12}>
-        <Typography variant="h3" fontWeight="bold" textAlign="start" style={{ "color": "#8f5741", "font-family": 'Great Vibes'}}>
+        <Typography variant="h3" fontWeight="bold" textAlign="start" style={{ "color": "#FFE162"}} className="fontapp">
           Sản phẩm khác
         </Typography>
       </Grid>

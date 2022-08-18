@@ -19,7 +19,7 @@ function ProductInfo() {
     window.scrollTo(0, 0)
   }, [])
   return (
-    <div style={{ backgroundColor: "#ECB390",  }}>
+    <div style={{ backgroundColor: "#D2F5E3",  }} className="fontapp">
       <Header />
       <BreadCrumb breadcrumbArray={breadcrumbArray} pageName="Sản phẩm" />
       <Container>

@@ -8,7 +8,7 @@ function OrderProduct() {
             return cash.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.')
     }
     return (
-        <Grid container mt={1} spacing={2} p={3} sx={{ border: "double #ff6347", borderRadius: "10px", backgroundColor: "#fff" }}>
+        <Grid container mt={1} spacing={2} p={3} sx={{ border: "#FE7171", borderRadius: "10px", backgroundColor: "#D2F5E3" }}>
             <Grid item xs={12} sm={12} lg={12} md={12}>
                 <Typography variant="h5">
                     Sản phẩm đã đặt hàng
@@ -17,7 +17,7 @@ function OrderProduct() {
             <Grid item xs={12} sm={12} lg={12} md={12}>
                 <TableContainer component={Paper} >
                     <Table sx={{ minWidth: 650 }} aria-label="simple table">
-                        <TableHead>
+                        <TableHead style={{backgroundColor: "#E5C5B5"}}>
                             <TableRow>
                                 <TableCell align="left">Sản phẩm</TableCell>
                                 <TableCell align="left">Đơn giá</TableCell>
@@ -25,7 +25,7 @@ function OrderProduct() {
                                 <TableCell align="left">Thành tiền</TableCell>
                             </TableRow>
                         </TableHead>
-                        <TableBody>
+                        <TableBody style={{backgroundColor: "#F4D9C6"}}>
                             {
                                 buyList.map((product, index) => {
                                     return (

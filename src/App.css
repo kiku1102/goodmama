@@ -7,8 +7,8 @@
   pointer-events: none;
 }
 
-font{
-  font-family: 'Great Vibes', cursive;
+.fontapp{
+  font-family: 'Roboto Slab', cursive;
 }
 
 @media (prefers-reduced-motion: no-preference) {

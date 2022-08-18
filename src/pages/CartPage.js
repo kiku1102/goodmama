@@ -12,7 +12,7 @@ function CartPage() {
         },
     ];
     return (
-        <div style={{ backgroundColor: "#ffe6e7", "fontFamily": "Dancing Script" }}>
+        <div style={{ backgroundColor: "#D2F5E3",}} className="fontapp">
             <Header />
             <BreadCrumb breadcrumbArray={breadcrumbArray} pageName="Giỏ hàng" />
             <Grid mx={3}>

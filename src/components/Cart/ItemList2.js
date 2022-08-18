@@ -132,8 +132,8 @@ function ItemsList2() {
             <Grid container mt={2}>
                 <TableContainer component={Paper} >
                     <Table sx={{ minWidth: 650 }} aria-label="simple table">
-                        <TableHead style={{ "backgroundColor": "#f1f3f4" }}>
-                            <TableRow>
+                        <TableHead style={{ "backgroundColor": "#E5C5B5" }}>
+                            <TableRow >
                                 <TableCell align="left">
                                     <Checkbox
                                         indeterminate={numSelected > 0 && numSelected < products.length}
@@ -148,7 +148,7 @@ function ItemsList2() {
                                 <TableCell align="left">Chỉnh sửa</TableCell>
                             </TableRow>
                         </TableHead>
-                        <TableBody>
+                        <TableBody style={{ "backgroundColor": "#F4D9C6" }}>
                             {
                                 products.map((product, index) => {
                                     const isItemSelected = isSelected(product._id);
@@ -185,8 +185,8 @@ function ItemsList2() {
 
                                             <TableCell >{formatCash(product.buyPrice * product.quantity)}.000VNĐ</TableCell>
                                             <TableCell >
-                                                <IconButton onClick={() => { onDeleteProductHandler(product, index) }}>
-                                                    <DeleteIcon />
+                                                <IconButton onClick={() => { onDeleteProductHandler(product, index) }} >
+                                                    <DeleteIcon  />
                                                 </IconButton>
                                             </TableCell>
                                         </TableRow>
@@ -200,7 +200,7 @@ function ItemsList2() {
 
             <Grid container mt={1}>
                 <Grid item xs={12} textAlign="end">
-                    <Typography variant="h5" sx={{ display: "inline", marginRight: "15px", color: "orange", fontWeight: "bold" }}>Total ({totalItem} item): {formatCash(totalPrice)}.000VNĐ</Typography>
+                    <Typography variant="h5" sx={{ display: "inline", marginRight: "15px", color: "#FF7C7C", fontWeight: "bold" }}>Total ({totalItem} item): {formatCash(totalPrice)}.000VNĐ</Typography>
                     <Button variant="contained" color="error" onClick={onBuyClick} >Đặt hàng</Button>
                 </Grid>
             </Grid>

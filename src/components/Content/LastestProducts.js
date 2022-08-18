@@ -24,8 +24,8 @@ function LastestProducts() {
     <Container>
       <Grid container mt={8} textAlign="center" spacing={2}>
         <Grid item xs={12} md={12} sm={12} lg={12}>
-          <Typography variant="h2" style={{ "textDecoration": "none", "color": "#fff", "fontWeight": "bold", "font-family": 'Great Vibes' }}>
-            SẢN &ensp; PHẨM &ensp; MỚI
+          <Typography variant="h2" style={{ "textDecoration": "none", "color": "#FFE162", "fontWeight": "bold" }} className='fontapp'>
+            SẢN PHẨM MỚI
           </Typography>
         </Grid>
         {products.map((product, index) => (

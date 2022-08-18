@@ -40,7 +40,7 @@ function OrderDetail() {
             <Container>
                 <OrderProduct />
                 <DeliveryInfo />
-                <Grid container mt={1} spacing={2} p={3} sx={{ border: "double #ff6347", borderRadius: "10px", backgroundColor: "#fff" }}>
+                <Grid container mt={1} spacing={2} p={3} sx={{border: "#FE7171", borderRadius: "10px", backgroundColor: "#D2F5E3" }}>
                     <Grid item xs={6} sm={6} lg={6} md={6}>
                         <Typography>Tổng thanh toán: <span style={{ color: "orange", fontWeight: "bold", fontSize: "x-large" }}>{formatCash(totalPrice)}.000VND</span></Typography>
                     </Grid>

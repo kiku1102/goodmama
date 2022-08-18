@@ -96,7 +96,7 @@ function ProductData() {
           </Grid>
           <Grid container textAlign="justify" mt={3} paddingX={4}>
             <Grid item xs={12} md={12} sm={12} lg={12} >
-              <Typography variant="h5" fontWeight="bold" style={{ "color": "#8f5741", "fontFamily": "Dancing Script" }}>
+              <Typography variant="h5" fontWeight="bold" style={{ "color": "#FFE162"}} className="fontapp">
                 Mô tả
               </Typography>
             </Grid>

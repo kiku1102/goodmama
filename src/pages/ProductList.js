@@ -52,7 +52,7 @@ function ProductList() {
       });
   }, [page, filterInfo]);
   return (
-    <div style={{ backgroundColor: "#ECB390", "fontFamily": "Dancing Script" }}>
+    <div style={{ backgroundColor: "#D2F5E3"}} className="fontapp">
       <Header />
       <BreadCrumb breadcrumbArray={breadcrumbArray} pageName="Tất cả sản phẩm" />
       <ProductFilter />
