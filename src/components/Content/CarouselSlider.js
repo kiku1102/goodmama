@@ -66,7 +66,7 @@ function CarouselSlider() {
                 onExiting={() => setAnimating(true)}
                 className="img-slide"
             >
-                <img src={item.src} alt={item.altText} style={{width: "100%", height: "600px"}}/>
+                <img src={item.src} alt={item.altText} style={{width: "100%", height: "500px"}}/>
             </CarouselItem>
         );
     });
