@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 function ProductFooter() {
     return (
-        <Grid container className="fontapp" style={{ "color": "#000" }}>
+        <Grid container className="fontapp" style={{ "color": "#8E3200" }}>
             <Grid item xs={12} md={12} sm={12} lg={12}  className="text-center">
                 <Typography variant="h6" fontWeight="bold">
                     VỀ CHÚNG TÔI

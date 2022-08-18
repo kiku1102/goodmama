@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import logo from "../../assets/images/logo.jpg";
 function SocialFooter() {
     return (
-        <Grid container style={{ "color": "#000" }} className="text-center">
+        <Grid container style={{ "color": "#8E3200" }} className="text-center">
             <Grid item xs={12} md={12} sm={12} lg={12} >
                 <img alt="logo" src={logo} style={{ width: "100px" }} />
             </Grid>
