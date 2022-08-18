@@ -58,7 +58,7 @@ function IconNavBar() {
         edge="end"
         color="inherit"
         aria-label="open drawer"
-        sx={{ mr:1, color: '#fff', display: { xs: 'none', md: 'inline' }}}
+        sx={{ mr:1, color: '', display: { xs: 'none', md: 'inline' }}}
         
       >
         <NotificationsActiveIcon />
