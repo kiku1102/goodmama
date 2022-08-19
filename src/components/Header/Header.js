@@ -12,7 +12,7 @@ function Header() {
     
       <Grid container >
       <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static" sx={{ backgroundColor: "#94B4A4" }}>
+        <AppBar position="static" sx={{ backgroundColor: "rgb(26 148 255)" }}>
           <Toolbar>
             <IconButton
               size="large"

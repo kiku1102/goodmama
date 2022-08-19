@@ -5,9 +5,8 @@ import SocialFooter from "./SocialFooter";
 import SupportFooter from "./SupportFooter";
 function Footer() {
     return (
-        <div style={{backgroundColor: "#F4D9C6"}}>
         <Container>
-            <Grid container color="white" mt={5} sx={{ p: 5, backgroundColor: "#F4D9C6" }} spacing={2}>
+            <Grid container color="white" mt={5} sx={{ p: 5}} spacing={2}>
             <Grid item xs={12} md={3} sm={3} lg={3}>
                 <ProductFooter />
             </Grid>
@@ -22,7 +21,6 @@ function Footer() {
             </Grid>
         </Grid>
         </Container>
-        </div>
     )
 }
 export default Footer;

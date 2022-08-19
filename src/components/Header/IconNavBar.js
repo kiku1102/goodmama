@@ -58,7 +58,7 @@ function IconNavBar() {
         edge="end"
         color="inherit"
         aria-label="open drawer"
-        sx={{ mr:1, color: '#8E3200', display: { xs: 'none', md: 'inline' }}}
+        sx={{ mr:1, color: '#fff', display: { xs: 'none', md: 'inline' }}}
         
       >
         <NotificationsActiveIcon />
@@ -68,7 +68,7 @@ function IconNavBar() {
         size="large"
          color="inherit"
          href="/login" 
-        sx={{display: 'inline', color: '#8E3200' }}>
+        sx={{display: 'inline', color: '#fff' }}>
           <PersonIcon />
         </IconButton>
       ) : (
@@ -99,13 +99,13 @@ function IconNavBar() {
             }}
             
           >
-            <MenuItem onClick={myOrder} style={{ "textDecoration": "none", "color": "#8E3200"}} classname="fontapp">Đơn hàng của tôi</MenuItem>
-            <MenuItem onClick={logoutGoogle} style={{ "textDecoration": "none", "color": "#8E3200"}} classname="fontapp">Đăng xuất</MenuItem>
+            <MenuItem onClick={myOrder} style={{ "textDecoration": "none", "color": "#fff"}} classname="fontapp">Đơn hàng của tôi</MenuItem>
+            <MenuItem onClick={logoutGoogle} style={{ "textDecoration": "none", "color": "#fff"}} classname="fontapp">Đăng xuất</MenuItem>
           </Menu>
         </>
       )}
 
-      <IconButton sx={{color: '#8E3200', display: 'inline'}} onClick={onCartClick}>
+      <IconButton sx={{color: '#fff', display: 'inline'}} onClick={onCartClick}>
         <Badge badgeContent={itemQuantity} color="primary" >
           <LocalGroceryStoreIcon />
         </Badge>

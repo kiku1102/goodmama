@@ -6,12 +6,12 @@ function LogoComponent() {
     return (
         <>
             <Typography variant="h6" component="div" mr={3}>
-                <NavLink to="/" style={{ "textDecoration": "none", "fontWeight": "bold", "color": "#8E3200"}} classname="fontapp">
+                <NavLink to="/" style={{ "textDecoration": "none", "fontWeight": "bold", "color": "#fff"}} classname="fontapp">
                     Trang chủ
                 </NavLink>
             </Typography>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                <NavLink to="/products" style={{ "textDecoration": "none", "fontWeight": "bold", "color": "#8E3200"}} classname="fontapp">
+                <NavLink to="/products" style={{ "textDecoration": "none", "fontWeight": "bold", "color": "#fff"}} classname="fontapp">
                     Sản phẩm
                 </NavLink>
             </Typography>
