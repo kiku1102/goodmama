@@ -18,7 +18,7 @@ function ProductData() {
   };
 
   useEffect(() => {
-    getData("https://goodmamabackend.herokuapp.com/products/" + productId)
+    getData("https://shop24hbackend.vercel.app/products/" + productId)
       .then((data) => {
         console.log(data.data);
         setProduct(data.data);

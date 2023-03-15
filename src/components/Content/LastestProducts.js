@@ -11,7 +11,7 @@ function LastestProducts() {
     return responseData;
   };
   useEffect(() => {
-    getData("https://goodmamabackend.herokuapp.com/products?limit=8")
+    getData("https://shop24hbackend.vercel.app/products?limit=8")
       .then((data) => {
         console.log(data.data);
         setProducts(data.data);

@@ -11,7 +11,7 @@ function MyOrder() {
         return responseData
     }
     useEffect(() => {
-        getData(`https://goodmamabackend.herokuapp.com/orders`)
+        getData(`https://shop24hbackend.vercel.app/orders`)
             .then((data) => {
                 setOrders(data.data)
                 console.log(data);
